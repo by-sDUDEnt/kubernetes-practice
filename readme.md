@@ -1,0 +1,1 @@
+K8s config file for setting up simple-nodejs-app
