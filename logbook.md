@@ -30,3 +30,14 @@
 
 **todo**
 - proper handling through ingress - it have to work with /users!
+
+### day4
+- read docs, thats it
+
+welp, I figured out how should frontend work. Basiclly, it would works as I made it, purely because it shoudnt even work that way. I was using minikube last time, and, it worked because url in minikube worked without any kubectl proxy and long links - which I havent hardcoded into front end. 
+As far as I understood, it should work based on "proxy: url" config in nginx, which would redirect onto ingress in k8s cluster - that way i wont have any hardcoded links in front end (proper way) and handling url to backend would be done by nginx! proper way for reverse proxy, as intended!
+
+**todo** 
+- config ngixn with proper proxy setting
+- make db migrations
+- utilyze helm charts
