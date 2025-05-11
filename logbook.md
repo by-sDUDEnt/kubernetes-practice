@@ -40,4 +40,15 @@ As far as I understood, it should work based on "proxy: url" config in nginx, wh
 **todo** 
 - config ngixn with proper proxy setting
 - make db migrations
-- utilyze helm charts
+- utilyze helm charts **done in day 5**
+
+
+### day5
+was ill for few days
+
+- made simple helm charts, read about variables function etc. Dont want to implement them right now
+- tried to enable metrics server, got up the pod, but deployment keeps scaling to 0, need to figre this out
+
+**todo** 
+ - terraform
+ - complete monitoring
